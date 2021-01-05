@@ -1,0 +1,5 @@
+cn\kgc\service\ProductService.class
+cn\kgc\mapper\ProductMapper.class
+cn\kgc\UserServiceApplication.class
+cn\kgc\service\impl\ProductServiceImpl.class
+cn\kgc\controller\ProductController.class

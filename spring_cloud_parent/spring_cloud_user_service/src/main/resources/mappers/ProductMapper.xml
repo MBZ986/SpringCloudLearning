@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.kgc.mapper.ProductMapper">
+
+    <resultMap id="productMap" type="cn.kgc.entity.Product">
+        <id column="pid" property="id"></id>
+        <result column="ptitle" property="title"></result>
+        <result column="price" property="price"></result>
+        <result column="ptype" property="type"></result>
+        <result column="pnumber" property="number"></result>
+        <result column="pdetail" property="detail"></result>
+    </resultMap>
+
+    <select id="queryById" resultMap="productMap">
+        SELECT * FROM mproduct WHERE pid = #{id}
+    </select>
+
+    <select id="queryAll" resultMap="productMap">
+        SELECT * FROM mproduct
+    </select>
+</mapper>

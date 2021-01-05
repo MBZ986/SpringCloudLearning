@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring_cloud_user_service" />
+        <module name="spring_cloud_api" />
+        <module name="spring_cloud_user_service2" />
+        <module name="spring_cloud_user_feign" />
+        <module name="spring_cloud_user_resttemplate" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring_cloud_api" options="" />
+      <module name="spring_cloud_user_resttemplate" options="" />
+      <module name="spring_cloud_user_service" options="" />
+      <module name="spring_cloud_user_service2" options="" />
+    </option>
+  </component>
+</project>
