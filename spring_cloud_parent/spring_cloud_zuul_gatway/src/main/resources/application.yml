@@ -1,0 +1,28 @@
+server:
+  port: 6677
+
+spring:
+  application:
+    name: api-gateway
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/jpa?useUnicode=true&characterEncoding=UTF-8&serverTimezone=GMT%2B8
+    username: root
+    password: a123
+
+zuul:
+  prefix: /api
+
+  routes:
+    user-service-feign: /user-service/**
+
+#    user-service-rest: /user-service-rest/**
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    ip-address: 127.0.0.1
+  client:
+    service-url:
+      defaultZone: http://eureka02:10010/eureka,http://eureka01:10011/eureka,http://eureka03:10086/eureka

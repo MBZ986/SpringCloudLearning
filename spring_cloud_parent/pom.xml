@@ -10,10 +10,12 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>spring_cloud_user_service</module>
-        <module>spring_cloud_user_service_demo</module>
+        <module>spring_cloud_user_resttemplate</module>
         <module>spring_cloud_api</module>
         <module>spring_cloud_user_service2</module>
         <module>spring_cloud_user_feign</module>
+        <module>spring_cloud_hystrix_dashboard</module>
+        <module>spring_cloud_zuul_gatway</module>
     </modules>
 
     <properties>
@@ -96,6 +98,24 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-hystrix</artifactId>
                 <version>1.4.4.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-hystrix-dashboard</artifactId>
+                <version>1.4.4.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-zuul</artifactId>
+                <version>1.4.4.RELEASE</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-actuator</artifactId>
+                <version>${spring-boot-version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

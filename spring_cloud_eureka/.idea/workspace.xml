@@ -1,7 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e297d6b9-ea40-4420-a668-c76ef04129b4" name="Default Changelist" comment="" />
+    <list default="true" id="e297d6b9-ea40-4420-a668-c76ef04129b4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../spring_apollo_config_demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_apollo_config_demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_apollo_config_demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_apollo_config_demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_apollo_config_demo/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_apollo_config_demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_apollo_config_demo/spring_apollo_config_demo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_apollo_config_demo/src/main/java/cn/kgc/ApolloApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_apollo_config_demo/src/main/java/cn/kgc/config/ApolloConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_apollo_config_demo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_exercise/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_hystrix_dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_hystrix_dashboard/src/main/java/cn/kgc/DashboardApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_hystrix_dashboard/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_hystrix_dashboard/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_hystrix_dashboard/target/classes/cn/kgc/DashboardApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_hystrix_dashboard/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_hystrix_dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_hystrix_dashboard/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_hystrix_dashboard/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_hystrix_dashboard/target/spring_cloud_hystrix_dashboard-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/target/classes/cn/kgc/RestTemplateApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/target/classes/cn/kgc/controller/DemoController1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/target/classes/cn/kgc/controller/DemoController2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/target/classes/cn/kgc/controller/DemoController3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_zuul_gatway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_zuul_gatway/src/main/java/cn/kgc/ZuulGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_zuul_gatway/src/main/java/cn/kgc/config/RouteConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_zuul_gatway/src/main/java/cn/kgc/filter/GrayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_zuul_gatway/src/main/java/cn/kgc/filter/LoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_zuul_gatway/src/main/java/cn/kgc/tesk/RouteRefreshTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_zuul_gatway/src/main/java/cn/kgc/zuul/DynamicRouteLocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_zuul_gatway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_zuul_gatway/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_zuul_gatway/target/classes/cn/kgc/ZuulGatewayApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_zuul_gatway/target/classes/cn/kgc/zuul/DynamicRouteLocator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server_01/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server_01/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server_01/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server_01/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server_02/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server_02/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server_02/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server_02/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server_03/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server_03/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka_server_03/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka_server_03/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_api/src/main/java/cn/kgc/dto/Msg.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_api/src/main/java/cn/kgc/dto/Msg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_api/target/classes/cn/kgc/dto/Msg.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_api/target/classes/cn/kgc/dto/Msg.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/src/main/java/cn/kgc/FeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/src/main/java/cn/kgc/FeignApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/src/main/java/cn/kgc/config/CommConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/src/main/java/cn/kgc/config/CommConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/src/main/java/cn/kgc/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/src/main/java/cn/kgc/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/src/main/java/cn/kgc/service/IProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/src/main/java/cn/kgc/service/IProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/target/classes/cn/kgc/FeignApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/target/classes/cn/kgc/FeignApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/target/classes/cn/kgc/controller/DemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/target/classes/cn/kgc/controller/DemoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/target/classes/cn/kgc/service/hystrix/IProductServiceHystrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_feign/target/classes/cn/kgc/service/hystrix/IProductServiceHystrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/src/main/java/cn/kgc/RestTemplateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/src/main/java/cn/kgc/RestTemplateApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/src/main/java/cn/kgc/config/CommConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/src/main/java/cn/kgc/config/CommConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/src/main/java/cn/kgc/controller/DemoController1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/src/main/java/cn/kgc/controller/DemoController1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/src/main/java/cn/kgc/controller/DemoController3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/src/main/java/cn/kgc/controller/DemoController3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/target/classes/cn/kgc/config/CommConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_resttemplate/target/classes/cn/kgc/config/CommConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service/src/main/java/cn/kgc/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service/src/main/java/cn/kgc/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service/target/classes/cn/kgc/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service/target/classes/cn/kgc/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service2/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service2/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service2/target/classes/cn/kgc/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service2/target/classes/cn/kgc/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service2/target/classes/cn/kgc/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../spring_cloud_parent/spring_cloud_user_service2/target/classes/cn/kgc/service/impl/ProductServiceImpl.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +95,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -31,7 +115,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1mb2OcIQxLNknhPnQwHX9myGNQ5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelOrder2" value="2" />
@@ -129,12 +217,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2d287b41" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@2d287b41" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@9c2a828" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@daa0244f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -153,11 +236,30 @@
       <option name="presentableId" value="Default" />
       <updated>1609747938264</updated>
       <workItem from="1609747940821" duration="11222000" />
-      <workItem from="1609806978964" duration="8550000" />
+      <workItem from="1609806978964" duration="9970000" />
+      <workItem from="1609895280799" duration="6896000" />
+      <workItem from="1610073287761" duration="6633000" />
+      <workItem from="1610152663231" duration="1139000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

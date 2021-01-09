@@ -30,6 +30,6 @@ public class Msg {
     }
 
     public static Msg hystrix(){
-        return new Msg(455,"失败");
+        return new Msg(455,"服务降级");
     }
 }

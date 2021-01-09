@@ -2,15 +2,18 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="spring_cloud_zuul_gatway" />
         <module name="spring_cloud_user_service" />
-        <module name="spring_cloud_api" />
         <module name="spring_cloud_user_service2" />
-        <module name="spring_cloud_user_feign" />
+        <module name="spring_cloud_api" />
+        <module name="spring_cloud_hystrix_dashboard" />
         <module name="spring_cloud_user_resttemplate" />
+        <module name="spring_cloud_user_feign" />
       </profile>
     </annotationProcessing>
   </component>

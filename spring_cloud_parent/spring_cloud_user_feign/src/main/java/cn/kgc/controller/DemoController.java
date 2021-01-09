@@ -19,11 +19,11 @@ public class DemoController {
     @RequestMapping("/queryById/{id}")
     public Msg queryById(@PathVariable("id") Integer id) {
         System.out.println(id);
-        return Msg.data(productService.queryById(id));
+        return productService.queryById(id);
     }
 
     @RequestMapping("/queryAll")
     public Msg queryAll() {
-        return Msg.data(productService.queryAll());
+        return productService.queryAll();
     }
 }

@@ -2,10 +2,14 @@ package cn.kgc.config;
 
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.RoundRobinRule;
+import org.apache.catalina.servlets.CGIServlet;
+import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.client.RestTemplate;
+
+import java.util.Collection;
 
 @Configuration
 public class CommConfig {
@@ -30,4 +34,10 @@ public class CommConfig {
     public IRule iRule(){
         return new RoundRobinRule();
     }
+
+//    public ServletRegistrationBean servletRegistrationBean(){
+////        ServletRegistrationBean<CGIServlet> cgiServletServletRegistrationBean = new ServletRegistrationBean<>();
+////        cgiServletServletRegistrationBean.setUrl
+//
+//    }
 }

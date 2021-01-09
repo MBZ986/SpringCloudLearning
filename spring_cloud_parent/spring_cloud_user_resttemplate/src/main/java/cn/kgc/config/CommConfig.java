@@ -2,6 +2,7 @@ package cn.kgc.config;
 
 import com.netflix.loadbalancer.IRule;
 import com.netflix.loadbalancer.RoundRobinRule;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -19,6 +20,7 @@ public class CommConfig {
      */
     @Bean
     @LoadBalanced
+    @ConfigurationProperties(prefix = "spring.rest")
     public RestTemplate restTemplate(){
         return new RestTemplate();
     }
